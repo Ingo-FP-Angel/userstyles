@@ -1,0 +1,19 @@
+{
+    "name": "userstyles",
+    "version": "1.0.0",
+    "description": "A collection of my userstyles",
+    "main": "index.js",
+    "scripts": {
+        "prettier:format": "prettier --write \"{,**/}*.{js,json,md,yml,css}\""
+    },
+    "keywords": [
+        "userscripts",
+        "ui",
+        "improvements"
+    ],
+    "author": "Ingo FP Angel <ingo_fp_angel@gmx.de>",
+    "license": "MIT",
+    "dependencies": {
+        "prettier": "^2.2.1"
+    }
+}

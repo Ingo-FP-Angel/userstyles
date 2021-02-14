@@ -1,0 +1,39 @@
+@-moz-document url-prefix("https://perspective-daily.de/member/") {
+    .header.header-m {
+        min-height: 200px;
+    }
+
+    .header.header-m .header-container > div:nth-of-type(2) {
+        padding: 16px 0 0 0;
+    }
+
+    .tabs {
+        height: 48px;
+    }
+
+    article-list-toggle {
+        display: none;
+    }
+
+    .list:not(.default) .article {
+        max-width: 1000px;
+    }
+
+    .list .article {
+        width: 1000px;
+        margin: 32px auto 32px;
+    }
+
+    .list .article > .body {
+        padding: 16px 16px 8px;
+        width: 700px;
+    }
+
+    .list .article > .body .title {
+        font: 600 25px/30px 'Montserrat', sans-serif;
+    }
+
+    .list .article > .body .teaser {
+        margin: 16px 0;
+    }
+}
