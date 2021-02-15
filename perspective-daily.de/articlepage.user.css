@@ -1,0 +1,35 @@
+@-moz-document url-prefix("https://perspective-daily.de/article/") {
+    #article .read_header {
+        padding: 24px 0 0;
+    }
+
+    #article .read_header .interactions,
+    #article .read_header .author,
+    #article .read_header .title,
+    #article .read_header .intro,
+    #article .read_header .time,
+    #article .read_header .image {
+        margin: 0 0 24px;
+    }
+
+    #article .read_header h1::after {
+        margin-top: 12px;
+    }
+
+    #article .read_header.shortread_pic .image {
+        margin: 0 -10vw 24px;
+    }
+
+    #article .content.article {
+        padding: 48px 48px 24px 48px;
+        width: 800px
+    }
+
+    #article .content.article figure.voll {
+        width: 800px
+    }
+
+    #article .content.article .sidenote > cite > a {
+        display: block;
+    }
+}
