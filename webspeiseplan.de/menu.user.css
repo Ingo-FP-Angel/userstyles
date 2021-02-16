@@ -1,0 +1,13 @@
+@-moz-document regexp(".*\\.webspeiseplan\\.de/Menu") {
+    .menuTitleImage {
+        display: none;
+    }
+
+    .menu .menuListWrapper .meal .interactions {
+        display: none;
+    }
+
+    .meal-list-image-wrapper {
+        display: none;
+    }
+}
