@@ -31,8 +31,15 @@
     }
 
     #article .content.article .sidenote > cite {
-        right: -450px;
-        width: 450px;
+        right: -300px;
+        width: 300px;
+    }
+
+    @media screen and (min-width: 1800px) {
+        #article .content.article .sidenote > cite {
+            right: -450px;
+            width: 450px;
+        }
     }
 
     #article .content.article .sidenote > cite > a {
