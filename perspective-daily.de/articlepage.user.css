@@ -30,6 +30,11 @@
         width: 800px;
     }
 
+    #article .content.article .sidenote > cite {
+        right: -450px;
+        width: 450px;
+    }
+
     #article .content.article .sidenote > cite > a {
         display: block;
     }
