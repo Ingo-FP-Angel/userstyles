@@ -45,4 +45,8 @@
     #article .content.article .sidenote > cite > a {
         display: block;
     }
+
+    #article .content.discussion_intro, #article .content.discussion_body {
+        max-width: 750px !important
+    }
 }

@@ -15,9 +15,9 @@ in the list of articles.
 
 Changes to the article pages
 
--   reduce header height
--   make article text wider
--   automatically expand sidenode text
+- reduce header height
+- make article text and comments wider
+- automatically expand sidenode text
 
 For my screen setup this means less scrolling. And by expanding the sidenotes - which are also links - I can directly
 see what they are about. Plus I can use middle-mouse-click to open the link in a new background tab if I want to.
